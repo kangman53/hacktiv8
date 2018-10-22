@@ -30,7 +30,7 @@ IF `tahun` mod 4 equals to 0 AND `tahun` mod 100 not equals to 0
 ELSE IF `tahun` mod 4 equals to 0 AND `tahun` mod 100 equals to 0 AND `tahun` mod 400 equals to 0
   DISPLAY "tahun kabisat"
 ELSE
-  DISPLAY "bukan"
+  DISPLAY "bukan tahun kabisat"
 
 //ALGORITHM
 ------------------------------------------------
@@ -39,7 +39,7 @@ ELSE
 3.    Tampilkan "tahun kabisat".
 4. Jika `tahun` modulus 4 sama dengan 0 dan `tahun` modulus 100 sama dengan 0 dan `tahun` modulus 400 sama dengan 0, maka lakukan langkah 5. Jika tidak, lakukan langka 6.
 5.    Tampilkan "tahun kabisat".
-6.    Tampilkan "bukan".
+6.    Tampilkan "bukan tahun kabisat".
 
 
 //SOAL KETIGA
