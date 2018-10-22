@@ -1,0 +1,85 @@
+//PSEUDOCODE & ALGORITHM WEEK 2 - SENIN
+
+//SOAL PERTAMA
+//PSEUDOCODE
+------------------------------------------------
+STORE `massaBenda` with 600
+STORE `percepatanBenda` with 3
+STORE `resultanGaya` without any value
+
+CALCULATE `massaBenda` times `percepatanBenda`
+SET `resultanGaya` value with calculation result
+DISPLAY `resultanGaya`
+
+//ALGORITHM
+------------------------------------------------
+1. Simpan `massaBenda` dengan nilai 600.
+2. Simpan percepatanBenda dengan nilai 3.
+3. Simpan resultanGaya tanpa diberikan nilai. Ini akan kita isi nanti.
+4. Hitung massaBenda dikali percepatanBenda.
+5. Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam `resultanGaya`.
+6. Tampilkan `resultanGaya`.
+
+//SOAL KEDUA
+//PSEUDOCODE
+------------------------------------------------
+STORE `tahun` with > 0
+
+IF `tahun` mod 4 equals to 0 AND `tahun` mod 100 not equals to 0
+  DISPLAY "tahun kabisat"
+ELSE IF `tahun` mod 4 equals to 0 AND `tahun` mod 100 equals to 0 AND `tahun` mod 400 equals to 0
+  DISPLAY "tahun kabisat"
+ELSE
+  DISPLAY "bukan"
+
+//ALGORITHM
+------------------------------------------------
+1. Simpan `tahun` dengan nilai lebih dari 0.
+2. Jika `tahun` modulus 4 sama dengan 0 dan `tahun` modulus 100 tidak sama dengan 0, maka lakukan langkah 3. Jika tidak, lakukan langkah 4.
+3.    Tampilkan "tahun kabisat".
+4. Jika `tahun` modulus 4 sama dengan 0 dan `tahun` modulus 100 sama dengan 0 dan `tahun` modulus 400 sama dengan 0, maka lakukan langkah 5. Jika tidak, lakukan langka 6.
+5.    Tampilkan "tahun kabisat".
+6.    Tampilkan "bukan".
+
+
+//SOAL KETIGA
+//PSEUDOCODE
+------------------------------------------------
+STORE `countPakaian` with 0
+STORE `totalPakaian` with 20
+WHILE `countPakaian` < `totalPakaian`
+  ADD `countPakaian` by 1
+DO MACHINE ON
+
+//ALGORITHM
+------------------------------------------------
+1. Simpan `countPakaian` dengan nilai 0.
+2. Simpan 'totalPakaian' dengan nilai 20.
+3. Ulangi step 4 selama `countPakaian` masih dibawah `totalPakaian`. Jika `countPakaian` sudah sama dengan `totalPakaian`, lanjut ke step 5.
+4.    Tambah `countPakaian` dengan 1.
+5. Hidupkan Mesin.
+
+
+//SOAL KEEMPAT
+//PSEUDOCODE
+------------------------------------------------
+STORE `countSiswa` with 0
+STORE `totalSiswa` with 40
+WHILE `countSiswa < `totalSiswa`
+  ADD `countSiswa` by 1
+  STORE `kukuSiswa` with any value
+  IF `kukuSiswa` equals "panjang"
+  DO "hukum siswa"
+  ELSE
+  DO "puji siswa"
+
+//ALGORITHM
+------------------------------------------------
+1. Simpan `countSiswa` dengan nilai 0.
+2. Simpan `totalSiswa` dengan nilai 40.
+3. Ulangi step 4 sampai 8 selama `countSiswa` masih dibawah `totalSiswa`. Jika `countSiswa` sudah sama dengan `totalSiswa`..
+4.    Tambah `countSiswa` dengan 1.
+5.    Simpan `kukuSiswa` dengan nilai berapapun.
+6.    Jika `kukuSiswa` sama dengan "panjang", maka lakukan langkah 7. Jika tidak, maka lakukan langkah 8.
+7.        Lakukan hukum siswa.
+8.        Lakukan puji siswa.
