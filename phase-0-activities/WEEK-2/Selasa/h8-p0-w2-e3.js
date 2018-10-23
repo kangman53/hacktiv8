@@ -1,7 +1,7 @@
 var nama = 'Herman';
 var peran = 'Penyihir';
 
-if (nama === '' && peran === ''){
+if (nama === ''){
   console.log('Nama harus diisi!');
 } else if (peran === '') {
   console.log('Halo ' + nama + ', Pilih peranmu untuk memulai game!');
