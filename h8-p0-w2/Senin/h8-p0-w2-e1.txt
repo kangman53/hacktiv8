@@ -23,7 +23,7 @@ DISPLAY `resultanGaya`
 //SOAL KEDUA
 //PSEUDOCODE
 ------------------------------------------------
-STORE `tahun` with > 0
+STORE `tahun` with any value
 
 IF `tahun` mod 4 equals to 0 AND `tahun` mod 100 not equals to 0
   DISPLAY "tahun kabisat"
@@ -47,7 +47,7 @@ ELSE
 ------------------------------------------------
 STORE `countPakaian` with 0
 STORE `totalPakaian` with 20
-WHILE `countPakaian` < `totalPakaian`
+WHILE `countPakaian` less than `totalPakaian`
   ADD `countPakaian` by 1
 DO MACHINE ON
 
@@ -65,7 +65,7 @@ DO MACHINE ON
 ------------------------------------------------
 STORE `countSiswa` with 0
 STORE `totalSiswa` with 40
-WHILE `countSiswa < `totalSiswa`
+WHILE `countSiswa less than `totalSiswa`
   ADD `countSiswa` by 1
   STORE `kukuSiswa` with any value
   IF `kukuSiswa` equals "panjang"

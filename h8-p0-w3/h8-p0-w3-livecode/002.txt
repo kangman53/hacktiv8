@@ -1,0 +1,28 @@
+/*
+Buatlah sebuah algoritma untuk kasus berikut:
+Seorang pengajar sedang memeriksa ujian mahasiswa dan akan memberikan desc nilai dari A-E dengan ketentuan sebagai berikut:
+ - Nilai 80 - 100: A
+ - Nilai 65 - 79: B
+ - Nilai 50 - 64: C
+ - Nilai 35 - 49: D
+ - Nilai 0 - 34: E
+ Tampilkan desc nilai dan nama siswa saat pengajar tersebut memasukkan nilai dan nama yang dia inginkan.
+NOTED:
+Jika nilai mahasiswa kurang dari 0 atau lebih dari 100 maka tampilkan 'Nilai Invalid'
+*/
+
+
+1. Simpan `namaSiswa` dengan nilai berapapun;
+2. Simpan `nilaiSiswa` dengan nilai berapapun;
+3. Jika `nilaiSiswa` kurang dari sama dengan 100 dan `nilaiSiswa` lebih dari sama dengan 80, maka lakukan langkah 4. Jika tidak lakukan langkah 5.
+4.    Tampilkan 'Nama Siswa : ' + `namaSiswa` + ' Deskripsi Nilai : A'.
+5. Jika `nilaiSiswa` kurang dari sama dengan 79 dan `nilaiSiswa` lebih dari sama dengan 65, maka lakukan langkah 6. Jika tidak lakukan langkah 7.
+6.    Tampilkan 'Nama Siswa : ' + `namaSiswa` + ' Deskripsi Nilai : B'.
+7. Jika `nilaiSiswa` kurang dari sama dengan 64 dan `nilaiSiswa` lebih dari sama dengan 50, maka lakukan langkah 8. Jika tidak lakukan langkah 9.
+8.    Tampilkan 'Nama Siswa : ' + `namaSiswa` + ' Deskripsi Nilai : C'.
+9. Jika `nilaiSiswa` kurang dari sama dengan 49 dan `nilaiSiswa` lebih dari sama dengan 35, maka lakukan langkah 10. Jika tidak lakukan langkah 11.
+10.    Tampilkan 'Nama Siswa : ' + `namaSiswa` + ' Deskripsi Nilai : D'.
+11. Jika `nilaiSiswa` kurang dari sama dengan 34 dan `nilaiSiswa` lebih dari sama dengan 0, maka lakukan langkah 12. Jika tidak lakukan langkah 13.
+12.    Tampilkan 'Nama Siswa : ' + `namaSiswa` + ' Deskripsi Nilai : E'.
+13. Jika `nilaiSiswa` tidak memenuhi semua nilai diatas, maka lakukan langkah 14.
+14.   Tampilkan 'Nilai Invalid'.
